@@ -1,7 +1,31 @@
-*{
+* {
     font-family: "Inter", serif, sans-serif;
 }
 
-.avatar-img{
-    
+/* body{
+    background: black;
+} */
+
+#link-profile-container {
+    margin: 5rem auto;
+    width: 364px;
+    height: 530px;
+    background: #1f1f1f;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+}
+
+.avatar-img img{
+    width: 88px;
+    height: 88px;
+    border-radius: 100%;
+}
+
+.profile-text {
+    margin-top: 1rem;
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
 }
