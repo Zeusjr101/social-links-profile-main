@@ -10,7 +10,7 @@
     margin: 5rem auto;
     width: 364px;
     height: 530px;
-    background: #1f1f1f;
+    background: #adacac;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -48,4 +48,22 @@ p{
     text-align: center;
     margin-top: 10px;
     margin-bottom: 20px;
+}
+
+.links-menu{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.links-menu li{
+    color: white;
+    margin-bottom: 10px;
+    /* list-style-type: none; */
+    background-color: #141414;
+    text-align: center;
+    border: 5px solid #c5f82a;
+    
+    
+    
 }
